@@ -118,11 +118,60 @@
 ### Exercício 8. Filtragem de Dados Faltantes
 # Objetivo:** Dada uma lista de dicionários representando dados de usuários, filtrar aqueles que têm um campo específico faltando
 
+# usuarios = [{'usuario': 'usuario1', 'comida': 'pipoca'},
+#             {'usuario': 'usuario2', 'comida': 'paçoca'},
+#             {'usuario': 'usuario3'},
+#             {'usuario': 'usuario4'},
+#             {'comida': 'batata frita'},
+#             {'comida': 'arroz e feijão'}]
+
+# usuarios_filtrados = []
+
+# for i in usuarios:
+#     if len(i) < 2:
+#         usuarios_filtrados.append(i)
+
+# print(usuarios_filtrados)
+
 ### Exercício 9. Extração de Subconjuntos de Dados
 # Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
 
+# import random
+
+# numeros = [random.randint(1,100) for _ in range(10)]
+# numeros_pares = []
+
+# for i in numeros:
+#     if i % 2 == 0:
+#         numeros_pares.append(i)
+
+# print(numeros)
+# print(numeros_pares)
+
 ### Exercício 10. Agregação de Dados por Categoria
 # Objetivo:** Dado um conjunto de registros de vendas, calcular o total de vendas por categoria.
+
+# vendas = [{'id':1, 'categoria':'doce', 'valor': 10},
+#           {'id':2, 'categoria':'salgado', 'valor': 15},
+#           {'id':3, 'categoria':'doce', 'valor': 5},
+#           {'id':4, 'categoria':'refrigerante', 'valor': 12},
+#           {'id':5, 'categoria':'doce', 'valor': 7},
+#           {'id':6, 'categoria':'salgado', 'valor': 8},
+#           {'id':7, 'categoria':'refrigerante', 'valor': 20},
+#           {'id':8, 'categoria':'salgado', 'valor': 3.90},
+#           {'id':9, 'categoria':'doce', 'valor': 2.5},
+#           {'id':10, 'categoria':'salgado', 'valor': 13.5},
+#           {'id':11, 'categoria':'refrigerante', 'valor': 10}]
+
+# total = {}
+
+# for i in vendas:
+#     if i['categoria'] in total:
+#         total[i['categoria']] = total[i['categoria']] + i['valor']
+#     else:
+#         total[i['categoria']] = i['valor']
+
+# print(total)
 
 ### Exercícios com WHILE
 
