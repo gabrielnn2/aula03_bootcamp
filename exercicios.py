@@ -178,14 +178,59 @@
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
 
+# dados_entrada = []
+# i = ""
+
+# while i.lower() != "sair":
+#     i = input("Digite o novo dado: ")
+#     if i.lower() != "sair":
+#         dados_entrada.append(i)
+
+# print(dados_entrada)
+
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+
+# entrada = 0
+
+# while entrada < 1 or entrada > 10:
+#     entrada = int(input("Digite um número: "))
+
+# print("Entrada validada.")
 
 ### Exercício 13. Consumo de API Simulado
 # Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
 
+# paginas = 10
+# pagina = 1
+
+# while pagina <= 10:
+#     print(f"processando a pagina {pagina} de {paginas}")
+#     pagina += 1
+
+# print(f"processamento concluido das {paginas} paginas")
+
 ### Exercício 14. Tentativas de Conexão
 # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
 
+# tentativa = 1
+# limite = 10
+
+# while tentativa <= limite:
+#     print(f"Tentando conexão {tentativa} de {limite}")
+#     tentativa += 1
+
+# print(f"Limite de {limite} tentativas de conexão")
+
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.
+
+# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "sair", 12, 13, 14, 15]
+# i = 0
+# lista_processada = []
+
+# while lista[i] != "sair":
+#     lista_processada.append(lista[i])
+#     i += 1
+
+# print(lista_processada)
